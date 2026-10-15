@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Projets de formation et personnels en développement informatique."
+    />
+    <title>Projets | Portfolio développeur</title>
+    <link rel="stylesheet" href="static/css/style.css" />
+    <script src="static/js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">H.</span
+          ><span class="brand-name">PORTFOLIO <small>/ DEV</small></span></a
+        ><button
+          class="menu-toggle"
+          aria-label="Ouvrir le menu"
+          aria-expanded="false"
+        >
+          ☰ MENU
+        </button>
+        <nav class="nav" aria-label="Navigation principale">
+          <a href="index.html" class="">Accueil</a
+          ><a href="profil.html" class="">Profil</a
+          ><a href="competences.html" class="">Compétences</a
+          ><a href="projets.html" class="active" aria-current="page">Projets</a
+          ><a href="contact.html" class="">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="wrap page-hero">
+        <p class="eyebrow">03 / Projets</p>
+        <h1>Du code.<br /><span>Du concret.</span></h1>
+        <p class="intro">
+          Une sélection de projets personnels et de formation. Les fiches
+          mettent en avant les objectifs et les technologies identifiés ;
+          certains projets devront être complétés après vérification de leur
+          dépôt.
+        </p>
+      </section>
+      <section class="section">
+        <div class="wrap">
+          <div class="filter-bar" aria-label="Filtrer les projets">
+            <button class="filter-btn active" data-filter="all">Tous</button
+            ><button class="filter-btn" data-filter="web">Web</button
+            ><button class="filter-btn" data-filter="api">API</button
+            ><button class="filter-btn" data-filter="systems">
+              Système & réseau</button
+            ><button class="filter-btn" data-filter="algorithms">
+              Algorithmes</button
+            ><button class="filter-btn" data-filter="personal">
+              Personnel
+            </button>
+          </div>
+          <div class="cards">
+            <article class="card project-card" data-category="personal web">
+              <div class="card-top">
+                <span class="card-index">01</span
+                ><span class="tag">Rust · Web</span>
+              </div>
+              <h3>NOVA</h3>
+              <p>
+                Application de recherche avec interface web, indexation de
+                contenus et organisation des résultats. Le projet explore aussi
+                les templates, les bases SQLite, les requêtes web et des
+                fonctions liées à l’IA locale.
+              </p>
+              <div class="tags">
+                <span>Rust</span><span>Actix</span><span>Web</span
+                ><span>Tera</span><span>SQLite</span><span>SQLx</span
+                ><span>Reqwest</span><span>Scraper</span><span>TF-IDF</span
+                ><span>SearXNG</span><span>Ollama</span>
+              </div>
+              <a class="text-link project-open" href="projet.html?id=nova"
+                >Voir les tâches réalisées et les apprentissages
+                <span aria-hidden="true">↗</span></a
+              >
+            </article>
+            <article class="card project-card" data-category="web">
+              <div class="card-top">
+                <span class="card-index">02</span
+                ><span class="tag">Go · Web</span>
+              </div>
+              <h3>Forum</h3>
+              <p>
+                Forum web avec création de comptes, connexion, sessions,
+                publications, catégories et réactions. Le projet couvre aussi la
+                validation des formulaires, le stockage SQL et la gestion des
+                accès visiteurs.
+              </p>
+              <div class="tags">
+                <span>Go</span><span>net/http</span><span>SQLite</span
+                ><span>HTML</span><span>CSS</span><span>Sessions</span
+                ><span>bcrypt</span><span>SMTP</span>
+              </div>
+              <a class="text-link project-open" href="projet.html?id=forum"
+                >Voir les tâches réalisées et les apprentissages
+                <span aria-hidden="true">↗</span></a
+              >
+            </article>
+            <article class="card project-card" data-category="web api">
+              <div class="card-top">
+                <span class="card-index">03</span
+                ><span class="tag">Go · API</span>
+              </div>
+              <h3>Groupie Tracker</h3>
+              <p>
+                Application s’appuyant sur une API liée aux artistes et aux
+                groupes musicaux, avec affichage de données, filtres et
+                fonctions de géolocalisation.
+              </p>
+              <div class="tags">
+                <span>Go</span><span>API</span><span>HTTP</span><span>JSON</span
+                ><span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a
+                class="text-link project-open"
+                href="projet.html?id=groupie-tracker"
+                >Voir les tâches réalisées et les apprentissages
+                <span aria-hidden="true">↗</span></a
+              >
+            </article>
+            <article class="card project-card" data-category="systems">
+              <div class="card-top">
+                <span class="card-index">04</span
+                ><span class="tag">C · Réseau</span>
+              </div>
+              <h3>ATM Management System</h3>
+              <p>
+                Projet de gestion en C utilisant les fichiers pour la
+                persistance et des sockets pour expérimenter la communication
+                entre un client et un serveur.
+              </p>
+              <div class="tags">
+                <span>C</span><span>Fichiers</span><span>Sockets</span
+                ><span>Client-serveur</span>
+              </div>
+              <a
+                class="text-link project-open"
+                href="projet.html?id=atm-management-system"
+                >Voir les tâches réalisées et les apprentissages
+                <span aria-hidden="true">↗</span></a
+              >
+            </article>
+            <article
+              class="card project-card"
+              data-category="systems algorithms"
+            >
+              <div class="card-top">
+                <span class="card-index">05</span
+                ><span class="tag">Algorithmes</span>
+              </div>
+              <h3>Push-swap</h3>
+              <p>
+                Projet d’algorithmique autour du tri d’entiers à l’aide de deux
+                piles et d’un ensemble limité d’opérations. Les détails de la
+                version présentée peuvent être adaptés au dépôt final.
+              </p>
+              <div class="tags">
+                <span>Go</span><span>/</span><span>C</span
+                ><span>Algorithmes</span><span>Piles</span><span>Parsing</span>
+              </div>
+              <a class="text-link project-open" href="projet.html?id=push-swap"
+                >Voir les tâches réalisées et les apprentissages
+                <span aria-hidden="true">↗</span></a
+              >
+            </article>
+            <article class="card project-card" data-category="web">
+              <div class="card-top">
+                <span class="card-index">06</span
+                ><span class="tag">Go · Web</span>
+              </div>
+              <h3>ASCII-Art / ASCII-Art-Web</h3>
+              <p>
+                Génération de représentations textuelles à partir de chaînes de
+                caractères et mise en place d’une interface web autour de la
+                génération ASCII.
+              </p>
+              <div class="tags">
+                <span>Go</span><span>HTTP</span><span>Templates</span
+                ><span>Texte</span><span>HTML</span><span>CSS</span>
+              </div>
+              <a class="text-link project-open" href="projet.html?id=ascii-art"
+                >Voir les tâches réalisées et les apprentissages
+                <span aria-hidden="true">↗</span></a
+              >
+            </article>
+            <article class="card project-card" data-category="algorithms">
+              <div class="card-top">
+                <span class="card-index">07</span><span class="tag">Go</span>
+              </div>
+              <h3>Go-Reloaded</h3>
+              <p>
+                Projet de traitement de texte et de transformation de chaînes,
+                avec application de règles précises sur le contenu fourni.
+              </p>
+              <div class="tags">
+                <span>Go</span><span>Traitement de texte</span>
+                <span>Chaînes de caractères</span><span>Parsing</span>
+                <span>Règles de transformation</span><span>Tests</span>
+              </div>
+              <a
+                class="text-link project-open"
+                href="projet.html?id=go-reloaded"
+                >Voir les tâches réalisées et les apprentissages
+                <span aria-hidden="true">↗</span></a
+              >
+            </article>
+            <article class="card project-card" data-category="algorithms">
+              <div class="card-top">
+                <span class="card-index">08</span
+                ><span class="tag">Go</span>
+              </div>
+              <h3>Tetris Optimizer</h3>
+              <p>
+                Projet de formation à détailler à partir du dépôt : objectif,
+                algorithme utilisé, contraintes et résultat attendu restent à
+                confirmer.
+              </p>
+              <div class="tags">
+                <span>Projet</span><span>Zone01</span><span>À</span
+                ><span>documenter</span>
+              </div>
+              <a
+                class="text-link project-open"
+                href="projet.html?id=tetris-optimizer"
+                >Voir les tâches réalisées et les apprentissages
+                <span aria-hidden="true">↗</span></a
+              >
+            </article>
+            <article class="card project-card" data-category="algorithms">
+              <div class="card-top">
+                <span class="card-index">09</span
+                ><span class="tag">Go</span>
+              </div>
+              <h3>Math-Skills</h3>
+              <p>
+                Projet d’analyse de données numériques et de calculs
+                statistiques. Les fonctionnalités exactes sont à confirmer à
+                partir du dépôt.
+              </p>
+              <div class="tags">
+                <span>Statistiques</span><span>Données</span><span>À</span
+                ><span>documenter</span>
+              </div>
+              <a
+                class="text-link project-open"
+                href="projet.html?id=math-skills"
+                >Voir les tâches réalisées et les apprentissages
+                <span aria-hidden="true">↗</span></a
+              >
+            </article>
+          </div>
+          <p class="notice" style="margin-top: 24px">
+            Transparence : les descriptions marquées « à préciser » ne sont pas
+            présentées comme des faits confirmés. Remplace-les par les
+            fonctionnalités exactes après vérification du code source.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <span
+          >© <span data-year>2026</span> <strong>PORTFOLIO / DEV</strong> ·
+          Portfolio indépendant du CV.</span
+        ><span>Conçu en HTML, CSS et JavaScript.</span>
+      </div>
+    </footer>
+  </body>
+</html>
