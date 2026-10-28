@@ -76,6 +76,39 @@ if (form) {
 }
 
 const projectDetails = {
+  "forfait-mobile": {
+    title: "Forfait Mobile",
+    summary:
+      "Application mobile en cours de développement visant à faciliter l'achat, la vente et le partage de forfaits téléphoniques.",
+    tags: [
+      "Flutter",
+      "Dart",
+      "Material 3",
+      "C++20",
+      "Drogon",
+      "PostgreSQL",
+      "Swift",
+      "Docker",
+      "CMake",
+    ],
+    tasks: [
+      "Développer l'interface Flutter avec Material 3.",
+      "Mettre en place un backend C++20 avec Drogon.",
+      "Configurer l'accès à la base de données PostgreSQL.",
+      "Organiser les écrans d'inscription et de connexion.",
+      "Préparer l'intégration des fonctionnalités natives iOS avec Swift.",
+    ],
+    learning: [
+      "Organiser une application avec une interface Flutter et un backend séparé.",
+      "Structurer une API avec C++20 et Drogon.",
+      "Relier un backend à PostgreSQL.",
+      "Préparer une architecture multiplateforme.",
+      "Organiser la compilation et l'environnement de développement avec CMake et Docker.",
+    ],
+    note:
+      "Projet en cours de développement. Les fonctions d'achat, de vente, de paiement, de messagerie et d'assistance IA sont des objectifs du projet et ne sont pas présentées comme déjà finalisées.",
+  },
+
   nova: {
     title: "NOVA",
     summary:
