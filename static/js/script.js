@@ -77,7 +77,7 @@ if (form) {
 
 const projectDetails = {
   "forfait-mobile": {
-    title: "Forfait Mobile",
+    title: "Biko",
     summary:
       "Application mobile en cours de développement visant à faciliter l'achat, la vente et le partage de forfaits téléphoniques.",
     tags: [
